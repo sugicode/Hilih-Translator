@@ -1,0 +1,22 @@
+label {
+  font-weight: bold;
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.btn-wrap .btn-copy {
+  padding: .2rem 1rem;
+  margin-right: 1rem;
+  min-width: 7rem;
+}
+
+#OutputText {
+  min-height: 6rem;
+}
+
+#OutputImg {
+  max-width: 20rem;
+}

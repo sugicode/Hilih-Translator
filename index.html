@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Translate Hilih </title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div class="form-group">
+		<label for="InputArea">Masukkan Kata</label>
+		<textarea class="form-control" id="InputArea" placeholder="Masukkan kata-kata yang ingin dimasukkan cuk" required></textarea>
+		<div class="invalid-feedback">
+			Please enter a message in the textarea.
+		</div>
+	</div>
+
+	<div class="radio-button">
+		<div class="custom-control custom-radio">
+			<input type="radio" id="Arnold" name="formatAccent" class="custom-control-input" value="i" data-img="https://pbs.twimg.com/media/EOOXnSkVAAAjeLa?format=jpg&name=900x900" checked>
+			<label class="custom-control-label" for="Arnold">Chef Arnold</label>
+		</div>
+		<div class="custom-control custom-radio">
+			<input type="radio" id="Juna" name="formatAccent" class="custom-control-input" value="u" data-img="https://pbs.twimg.com/media/EOOXm5ZU4AEI4Y5?format=jpg&name=360x360">
+			<label class="custom-control-label" for="Juna">Chef Juna</label>
+		</div>
+<!-- 		<div class="custom-control custom-radio">
+			<input type="radio" id="nissa" name="formatAccent" class="custom-control-input" value="m" data-img="https://www.islamcendekia.com/wp-content/uploads/2018/05/Nissa-Sabyan-Gambus-Deen-Assalam-Wallpaper.jpg">
+			<label class="custom-control-label" for="nissa">Versi Nissa Sabyan</label>
+		</div> -->
+	</div>
+
+	<button type="button" class="btn btn-warning" id="Submit" disabled>Pencet</button>
+	<button type="button" class="btne btn-danger" id="Clear">Bersihkan</button>
+
+</div>
+
+<div class="container mt-4">
+	<div class="form-group">
+		<label for="Output">Output</label>
+		<textarea class="form-control" id="OutputText" readonly></textarea>
+	</div>
+
+	<div class="btn-wrap">
+		<button type="button" class="btn btn-info btn-copy">Copy Text</button>
+		<div class="valid-feedback">Copied.</div>
+	</div>
+
+	<div class="text-center mb-5">
+		<img src="" id="OutputImg" class="img-fluid" alt="">
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
