@@ -12,7 +12,14 @@ label {
   margin-right: 1rem;
   min-width: 7rem;
 }
-
+img[alt*="www.000webhost.com"]{
+display:none!important;
+opacity:0;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+display:none!important;
+opacity:0;
+}
 #OutputText {
   min-height: 6rem;
 }
